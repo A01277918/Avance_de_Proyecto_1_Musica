@@ -64,13 +64,3 @@ Algoritmo
 
 12\. Si el usuario no desea realizar otra búsqueda, finalizar el programa.
 
-
-
-Así queda \*\*al nivel del ejemplo de PISA\*\*: tienes el \*\*contexto, por qué es interesante y el algoritmo\*\*, pero todavía \*\*no estamos metiendo código ni funciones específicas\*\*, porque eso seguramente vendrá en los siguientes avances.
-
-
-
-Además, esta idea te deja bastante espacio para después agregar cosas sencillas como \*\*género, artista, actividad, canciones favoritas o incluso guardar recomendaciones\*\*, sin hacer que el proyecto se vuelva demasiado complicado.
-
-
-
