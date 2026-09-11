@@ -1,40 +1,57 @@
-#este es un programa para calcular el costo de un viaje de 4 funciones.
+#laboratorio 3, 
+#4.a.- Programas que involucran estructuras de decisión
 
-#definir funciones
-#Funcion 1: Conversion de dolares a pesos
-def convertir_dolares_a_pesos(dolares):
-    pesos = dolares * 19.4
-    return pesos
+#1. Declarar funciones
 
-#Funcion 2: Costo de hotel
-def calcular_costo_hotel(hotel):
-    noche = hotel * 185.0
-    return noche
+#Funcion 1
+def valida (num):
+    if num > 0:
+        return True
+    else:
+        return False
 
-#Funcion 3: Costo del avion
-def calcular_costo_avion(viaje):
-    costo = viaje * 410.0 
-    return costo
+#Funcion 2
+def corriente (voltaje, resistencia):
+    if resistencia <= 0:
+        #indicar que la operacion no fue exitosa
+        return -1
+    else:
+        corriente = voltaje / resistencia
+        return corriente
 
-#Funcion 4:Costo de viaje en pesos
-def costo_total_viaje(hotel, viaje):
-    Ct = calcular_costo_hotel(hotel) + calcular_costo_avion(viaje)
-    t = convertir_dolares_a_pesos(Ct)
-    return t
+#Funcion 3
 
-#llamado de las funciones
+def voltaje (corriente, resistencia):
+    voltaje = corriente * resistencia
+    return voltaje
 
-opcion = int(input("Mete la opción del menú: "))
-if opcion == 1:
-    dolares = float(input())
-    print(convertir_dolares_a_pesos(dolares))
-elif opcion == 2:
-    hotel = int(input())
-    print(calcular_costo_hotel(hotel))
-elif opcion == 3:
-    viaje = int(input())
-    print(calcular_costo_avion(viaje))
-elif opcion == 4:
-    hotel = int(input())
-    viaje = int(input())
-    print(costo_total_viaje(hotel, viaje))
+#Funcion 4
+
+def resistencia (corriente, voltaje):
+    if corriente <= 0:
+        #indicar que la operacion no fue exitosa
+        return -1
+    else:
+        resistencia = voltaje / corriente
+        return resistencia
+
+#2. LLamado de las funciones
+
+opcion = int(input())
+if (opcion == 1):
+    num = float(input())
+    print(valida(num))
+elif (opcion == 2):
+    voltaje = float(input())
+    resistencia = float(input())
+    print(corriente(voltaje, resistencia))
+elif (opcion == 3):
+    corriente = float(input())
+    resistencia = float(input())
+    print(voltaje(corriente, resistencia))
+elif (opcion == 4):
+    corriente = float(input())
+    voltaje = float(input())
+    print(resistencia(corriente, voltaje))
+else:
+    print("entrada no valida")
