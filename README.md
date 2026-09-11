@@ -1,64 +1,55 @@
-# Avance\_Proyecto\_1\_Musica
+# Avance\_Proyecto\_1\_Basquetbol
 
 
+# Estadísticas de jugadores de básquetbol
 
+## Contexto
 
+Escogí el tema del básquetbol porque es un deporte que me gusta mucho y que considero muy interesante, no solamente por jugarlo, sino también por todo lo que pasa dentro de un partido. Me gusta la emoción de los partidos, las jugadas, los tiros de tres, las asistencias y la forma en la que cada jugador puede aportar algo diferente a su equipo. Además, creo que el básquetbol es un deporte en el que las estadísticas tienen mucha importancia, ya que muchas veces sirven para saber qué tan bien jugó una persona y qué fue lo que aportó durante el partido.
 
-Recomendador de música
-
-
-
-Contexto
-
-
-
-Escogí el tema de la música porque creo que forma parte de la vida diaria de todas las personas. No conozco a nadie al que no le guste la música, ya sea banda, cumbia, reguetón, balada o de distintos artistas como Bad Bunny, Luis Miguel, Justin Bieber, y de canciones diferentes. Incluso entre cada género o en cada artista de la industria, considero que es un punto de gusto universal entre toda la humanidad. Debido a la gran variedad de opciones, que en algunas veces puede ser difícil encontrar música que se adapte tanto a nosotros, en algunos momentos de nuestra vida nunca deja de hacernos quererla y de conectar con el resto de las personas que tienen nuestros mismos gustos o que nos enseñan una nueva faceta de nosotros mismos que nunca nos imaginamos conocer.
-
-
-
-Por lo que en este proyecto quise desarrollar un programa que funcione como un "recomendador" de música, para que cualquier persona pueda seleccionar sus preferencias, como el género musical que le gusta y la actividad para la que desea escuchar música. Con base en estas elecciones, el objetivo es que el programa muestre una serie de canciones que podrían ser de su interés.
-
-
-
-El proyecto considero que es muy interesante porque combina la programación con un tema de entretenimiento y permite utilizar diferentes temas que espero aprender y desarrollar durante el semestre, como funciones, condicionales, ciclos, listas, manejo de información y un largo etc.
-
-
+Por eso, en este proyecto quise desarrollar un programa que permita registrar y calcular las estadísticas de 5 jugadores de básquetbol durante un partido. Algunas de las estadísticas que se van a tomar en cuenta son los puntos, asistencias, rebotes, robos, pases fallidos, puntos de tres y pérdidas de balón. Al final, el programa utilizará estos datos para obtener una puntuación del desempeño de cada jugador del 1 al 10, siendo 10 la mejor calificación.
 
 ¿Por qué es interesante?
 
+Elegí este tema porque el básquetbol es uno de mis deportes favoritos y me parece interesante intentar utilizar la programación para analizar algo que normalmente podemos ver durante un partido. Muchas veces cuando vemos un juego nos damos cuenta de que un jugador tuvo un buen partido porque anotó muchos puntos, pero también existen otras cosas importantes como las asistencias, los rebotes, los robos o incluso los errores que tuvo.
 
+Además, considero interesante que el programa pueda tomar todas estas estadísticas y convertirlas en una calificación sencilla que permita comparar el desempeño de los 5 jugadores. De esta manera, no solamente se pueden ver los números de cada jugador, sino que también se puede tener una idea general de quién tuvo el mejor partido.
 
-Elegí este tema porque la música es uno de mis principales intereses y considero un verdadero reto utilizar la programación para crear una herramienta que pueda recomendar canciones de acuerdo con los gustos de cada persona.
+Este proyecto también me parece una buena forma de utilizar lo que voy aprendiendo en programación, ya que más adelante espero poder utilizar funciones, condicionales, ciclos, variables y operaciones matemáticas para hacer que el programa sea cada vez más completo.
 
+## Algoritmo
 
+1. Iniciar el programa.
 
-Además, este proyecto espero que pueda ser utilizado para probar y demostrar cómo un programa puede recibir información personalizada de cada persona, para después procesarla y generar un resultado diferente en cada uso de este, gracias a las casi infinitas opciones entre lo que ya hablé anteriormente, como géneros, artistas y canciones.
+2. Mostrar una bienvenida al usuario.
 
+3. Pedir el nombre de los 5 jugadores.
 
+4. Para cada jugador, pedir sus estadísticas del partido:
 
-Algoritmo
+   * Puntos.
+   * Asistencias.
+   * Rebotes.
+   * Robos.
+   * Pases fallidos.
+   * Puntos de tres.
+   * Pérdidas de balón.
 
+5. Guardar las estadísticas de cada jugador.
 
+6. Analizar las estadísticas de cada jugador.
 
-1\. Iniciar el programa.
+7. Calcular una puntuación de desempeño tomando en cuenta las estadísticas positivas y negativas.
 
-2\. Mostrar una bienvenida al usuario.
+8. Convertir la puntuación obtenida a una calificación del 1 al 10.
 
-3\. Mostrar las diferentes opciones de géneros musicales.
+9. Mostrar las estadísticas y la calificación de cada jugador.
 
-4\. Pedir al usuario que seleccione su género preferido.
+10. Comparar las calificaciones de los 5 jugadores.
 
-5\. Mostrar las diferentes actividades o situaciones para las que desea escuchar música.
+11. Mostrar cuál de los jugadores obtuvo la mejor puntuación.
 
-6\. Pedir al usuario que seleccione una actividad.
-
-7\. Analizar las preferencias seleccionadas por el usuario.
-
-8\. Buscar las canciones que coincidan con sus preferencias.
-
-9\. Mostrar las canciones recomendadas.
-
-10\. Preguntar al usuario si desea realizar otra búsqueda.
+12. Finalizar el programa.
 
 11\. Si el usuario desea realizar otra búsqueda, regresar al menú de selección.
 
