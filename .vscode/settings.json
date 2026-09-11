@@ -1,4 +1,7 @@
 {
     "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
-    "cSpell.language": "en,es-ES"
+    "cSpell.language": "en,es-ES",
+    "cSpell.words": [
+        "laslongitudes"
+    ]
 }
