@@ -1,9 +1,7 @@
-
-# --------------------------------
 # FUNCION PARA OBTENER ESTADISTICAS
-# --------------------------------
 
 def obtener_estadisticas():
+    """Estadisticas a evaluar de cada jugador"""
     puntos = int(input("Puntos: "))
     asistencias = int(input("Asistencias: "))
     rebotes = int(input("Rebotes: "))
@@ -14,23 +12,25 @@ def obtener_estadisticas():
 
     return puntos, asistencias, rebotes, robos, pases_fallidos, puntos_tres, perdidas
 
-
-# --------------------------------
 # FUNCION PARA CALCULAR DESEMPENO
-# --------------------------------
 
-def calcular_desempeno(puntos, asistencias, rebotes, robos, pases_fallidos, puntos_tres, perdidas):
+def calcular_desempeno(puntos, asistencias,
+                        rebotes, robos, 
+                        pases_fallidos, puntos_tres, 
+                        perdidas):
+    """Calculo de la puntuacion del jugador"""
 
-    puntuacion = (puntos + asistencias + rebotes + robos + puntos_tres - pases_fallidos - perdidas)
+    puntuacion = (puntos + asistencias + 
+                    rebotes + robos + 
+                    puntos_tres - pases_fallidos
+                    - perdidas)
 
     return puntuacion
 
-
-# --------------------------------
 # FUNCION PARA OBTENER CALIFICACION
-# --------------------------------
 
 def obtener_calificacion(puntuacion):
+    """Calculo de la calificacion del jugador"""
 
     if puntuacion >= 30:
         calificacion = 10
@@ -43,22 +43,17 @@ def obtener_calificacion(puntuacion):
 
     return calificacion
 
-
-# --------------------------------
 # FUNCION PARA MOSTRAR RESULTADO
-# --------------------------------
 
 def mostrar_resultado(nombre, puntuacion, calificacion):
+    """Muestra el resultado del jugador"""
 
     print()
     print("Jugador:", nombre)
     print("Puntuacion:", puntuacion)
     print("Calificacion:", calificacion, "/ 10")
 
-
-# --------------------------------
 # PROGRAMA PRINCIPAL
-# --------------------------------
 
 print("ESTADISTICAS DE BASQUETBOL")
 print("---------------------------")
